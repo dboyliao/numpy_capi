@@ -1,0 +1,1 @@
+This example is adapted from [scipy cookbook](https://www.scipy-lectures.org/advanced/interfacing_with_c/interfacing_with_c.html#id6)
