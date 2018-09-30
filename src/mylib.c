@@ -14,7 +14,7 @@ void print_strs(char **strs, size_t size)
 {
     for (size_t i = 0; i < size; ++i)
     {
-        printf("%s, ", strs[i]);
+        printf("%s\n", strs[i]);
     }
     printf("\n");
 }

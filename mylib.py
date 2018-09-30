@@ -9,9 +9,8 @@ clib = npct.load_library("_libmylib.so", 'lib')
 clib.cos_double.restype = None  # void
 clib.cos_double.argtypes = [arr_1d_type, arr_1d_type, ctypes.c_size_t]
 
-pp_char = ctypes.POINTER(ctypes.c_char_p)
 clib.print_strs.restype = None
-clib.print_strs.argtypes = [pp_char, ctypes.c_size_t]
+clib.print_strs.argtypes = [ctypes.POINTER(ctypes.c_char_p), ctypes.c_size_t]
 
 
 def cos_double(in_arr, out_arr=None):
