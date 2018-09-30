@@ -13,4 +13,4 @@ $(BUILD_DIR)/mylib.o : $(SOURCE)/mylib.c
 	gcc -c -fPIC $^ -o $@
 
 clean :
-	rm -vrf $(BUILD_DIR) $(LIB_DIR)
+	rm -vrf $(BUILD_DIR) $(LIB_DIR) gray.png

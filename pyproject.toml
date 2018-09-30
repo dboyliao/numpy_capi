@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "numpy_capi"
+version = "0.0.1"
+description = "simple demo of numpy c api"
+authors = ["dboyliao <qmalliao@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.6"
+numpy = "^1.15"
+Pillow = "^5.2"
+
+[tool.poetry.dev-dependencies]
