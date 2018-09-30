@@ -5,3 +5,4 @@ This example is adapted from [scipy cookbook](https://www.scipy-lectures.org/adv
 - https://gist.github.com/nzjrs/990493
 - https://www.numpy.org/devdocs/user/c-info.python-as-glue.html
 - https://docs.python.org/3.6/library/ctypes.html
+- https://stackoverflow.com/questions/3494598/passing-a-list-of-strings-to-from-python-ctypes-to-c-function-expecting-char
