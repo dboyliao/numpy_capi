@@ -10,12 +10,11 @@ void cos_double(double *in_array, double *out_array, size_t size)
     }
 }
 
-void print_strs(char *str_arr[], size_t size)
+void print_strs(char **strs, size_t size)
 {
-    printf("Hello\n");
     for (size_t i = 0; i < size; ++i)
     {
-        printf("%zu ", i);
-        printf("%s\n", str_arr[i]);
+        printf("%s, ", strs[i]);
     }
+    printf("\n");
 }
